@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', async function() {
   let serviceRequested
   if (ride.purpleRequested==true) {
     serviceRequested=`Noober Purple`
-  } else if (ride.numberOfPassengers > 3 && ride.purpleRequested==false){
+  } else if (numberOfPassengers > 3 && ride.purpleRequested==false){
     serviceRequested=`Noober XL`
   } else {
     serviceRequested=`Noober X`
